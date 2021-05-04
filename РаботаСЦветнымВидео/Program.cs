@@ -15,7 +15,6 @@ namespace РаботаСЦветнымВидео
             Console.ReadKey();
             Thread th = new Thread(Video);
             th.Start();
-
             Console.ReadKey();
         }
         
